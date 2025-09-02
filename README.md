@@ -1,18 +1,26 @@
 # Portfolio
-A ongoing homelab designed to simulate a mid-sized enterprise network for hands-on practice in network security engineering, automation, devops/netops, system administration, and more.
-This project demonstrates skills in Cisco networking, Windows AD, Infrastructure-as-Code using Ansible and python.
-(also proxmox vlan managment...idrac and drives...butying everything off ebay...ect)
+An ongoing homelab designed to simulate a mid-sized enterprise network for hands-on practice in network security engineering, automation, devops/netops, system administration, and more.
+This project demonstrates skills in Cisco networking, Windows AD, and Infrastructure-as-Code using Ansible and Python. Also, systems integration with Proxmox, Windows, and Linux.
+
 # Disclaimer
 
-This is very much work in progress and due to the nature of developing a infrastrusture like this it will take time.
-Future plans: ...
+This is very much a work in progress, and I'm in the process of an overhaul
+
+Plans:
+* Implementing a Secure client-server database application
+* SEIM
+* User AD environment with identity and access managment
+* Logging
+* CI/CD
+* IPS/IDS
+* bigger infrastructure
+* upgrading TFTP server
+* more
 
 # Overview
-* Network Layer: Cisco routers/switches with VLAN segmentation and routing
+* Network Layer: Cisco L3 switch with VLAN segmentation and Inter-VLAN Routing
 
-* Identity & Access: Windows Active Directory domain with Group Policies
-
-* Automation: Ansible playbooks and python scripts for configuration management and backup
+* Automation: Ansible playbooks and Python scripts for configuration management and backup
 
 * Security: HashiCorp Vault for secrets management
 
@@ -22,4 +30,7 @@ Future plans: ...
 
 # Network Devices
 
-pictures and expanation of each device
+Main Server: Dell R730
+L3 Switch: Cisco 3560V2
+Physical Hosts: Raspberry Pi 4's
+Firewalls: Cisco ASA 5512X
