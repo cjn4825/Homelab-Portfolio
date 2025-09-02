@@ -18,7 +18,7 @@ Future plans: ...
 
 # Network Design
 
-pictures
+![Logical Network Diagram](Logical_Network_Diagram_v1.0.png)
 
 # Network Devices
 
