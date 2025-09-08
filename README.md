@@ -34,7 +34,7 @@ Implementing:
 
 # Network Design Diagram
 
-![Logical Network Diagram](Logical_Network_Diagram_v1.0.png)
+![Logical Network Diagram](Logical_Network_Diagram_v1.1.png)
 
 # Network Devices
 
